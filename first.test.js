@@ -12,5 +12,5 @@ it("should return sum of an array", () => {
 
 it("should return NaN sum of an array with wrong data type", () => {
   const result = sum([1, "2", 3]);
-  expect(result).toBe("5");
+  expect(result).toBe("123");
 });

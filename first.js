@@ -1,5 +1,5 @@
 export const sum = (arr) => {
-  const sum = arr.reduce((a, b) => a + b, 0);
+  const sum = arr.reduce((a, b) => a + b);
   return sum;
 };
 
